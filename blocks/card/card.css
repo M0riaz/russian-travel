@@ -5,5 +5,19 @@
     /*grid-template-rows: 140px 143px 1fr;*/
     column-gap: 40px;
     row-gap: 48px;
-    margin-top: 92px;
+}
+@media screen  and (max-width: 1024px) {
+    .card {
+        column-gap: 32px;
+    }
+}
+@media screen  and (max-width: 768px) {
+    .card {
+        column-gap: 28px;
+    }
+}
+@media screen  and (max-width: 552px) {
+    .card {
+        grid-template-columns: 1fr;
+    }
 }

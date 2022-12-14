@@ -1,0 +1,14 @@
+.card__indent {
+    margin-top: 80px;
+}
+
+@media screen  and (max-width: 768px) {
+    .card__indent {
+        margin-top: 73px;
+    }
+}
+@media screen  and (max-width: 320px) {
+    .card__indent {
+        margin-top: 50px;
+    }
+}

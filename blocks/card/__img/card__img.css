@@ -1,6 +1,5 @@
 .card__img {
-    grid-row: 2/4;
-    height: 460px;
-    width: 460px;
-
+    grid-row: 2/3;
+    width: 100%;
 }
+

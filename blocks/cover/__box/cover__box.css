@@ -1,0 +1,14 @@
+.cover__box {
+    position: absolute;
+    top: 40%;
+    max-width: 560px;
+}
+
+
+@media screen and (max-width: 520px){
+    .cover__box {
+        max-width: 288px;
+        top: 30%;
+    }
+
+}
