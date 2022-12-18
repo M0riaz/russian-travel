@@ -4,14 +4,14 @@
     margin-right: 48px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .header__lang-place {
         margin-right: 24px;
     }
 
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
     .header__lang-place {
         margin-top: 30px;
         margin-right: 16px;

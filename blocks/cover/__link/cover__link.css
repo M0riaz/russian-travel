@@ -9,10 +9,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
-    padding: calc((245/1184)*100%) 0;
+    padding: calc((245 / 1184) * 100%) 0;
 }
-.cover__link:before{
-    background-color:#2A2C2F;
+
+.cover__link:before {
+    background-color: #2A2C2F;
     content: "";
     display: block;
     opacity: 0.3;
@@ -29,21 +30,23 @@
     opacity: 0.8;
 }
 
-@media screen  and (max-height: 1024px){
+@media screen  and (max-width: 1024px) {
     .cover__link {
-        padding: calc((195/1024)*100%) 0;
+        padding: calc((195 / 1024) * 100%) 0;
     }
 
 }
-@media screen  and (max-height: 768px){
+
+@media screen  and (max-width: 768px) {
     .cover__link {
-        padding: calc((115/768)*100%) 0;
+        padding: calc((115 / 768) * 100%) 0;
     }
 
 }
-@media screen  and (max-height: 320px){
+
+@media screen  and (max-width: 320px) {
     .cover__link {
-        padding: calc((33/320)*100%) 0;
+        padding: calc((33 / 320) * 100%) 0;
     }
 
 }

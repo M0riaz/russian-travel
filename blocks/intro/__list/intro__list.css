@@ -3,13 +3,14 @@
     padding: 0;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .intro__list {
         margin-left: 48px;
     }
 
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 768px) {
     .intro__list {
         margin-left: 24px;
         margin-right: 24px;
@@ -17,7 +18,7 @@
 
 }
 
-@media screen and (max-width: 670px){
+@media screen and (max-width: 670px) {
     .intro__list {
         margin-top: 34px;
         margin-left: 16px;
