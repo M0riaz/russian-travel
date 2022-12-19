@@ -37,7 +37,7 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__box/footer__box.css);
 @import url(../blocks/body-color/body-color.css);
-@import url(../blocks/header/__lang/_underline/header__lang_underline.css);
+@import url(../blocks/header/__lang/_active/header__lang_active.css);
 @import url(../blocks/header/__lang-list/header__lang-list.css);
 @import url(../blocks/intro/__span-accent/intro__span-accent.css);
 @import url(../blocks/places/__list/places__list.css);
